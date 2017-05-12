@@ -18,7 +18,7 @@
 
 ```r
   if (!is.element("devtools", .packages(all=T))) install.packages("devtools")
-  if (!is.element("RedcapData", .packages(all=T))) install_github("bonmac/RedcapData")
+  if (!is.element("RedcapData", .packages(all=T))) install_github("smockin/RedcapData")
 ```
 
 ### Installation
@@ -26,7 +26,7 @@
 > To install this package:
 
 ```r
-if (!is.element("RedcapDqa", .packages(all=T))) install_github("bonmac/RedcapDqa")
+if (!is.element("RedcapDqa", .packages(all=T))) install_github("smockin/RedcapDqa")
 ```
 
 ### Example
